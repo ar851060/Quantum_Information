@@ -6,11 +6,12 @@ import random
 
 def test_1():
     deltat = 0.05
+    totalstep = 5000
     for jdx in range(5):
         result = []
         num = []
         alpha = 0.7
-        for idx in range(5000):
+        for idx in range(totalstep):
             alsq = pow(alpha, 2)
             result.append(alsq)
             num.append(idx)
@@ -31,10 +32,12 @@ test_1()
 
 def test_2():
     deltat = 0.05
+    N = 10000
+    totalstep = 5000
     result = []
-    for jdx in range(10000):
+    for jdx in range(N):
         alpha = 0.6
-        for idx in range(5000):
+        for idx in range(totalstep):
             R = random.random()
             prob = 0.5*math.sqrt(1.0 + deltat * (2*pow(alpha, 2) - 1))
             if prob > R:
