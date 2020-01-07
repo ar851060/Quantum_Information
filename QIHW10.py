@@ -40,7 +40,7 @@ def figure():
 def Shor():
     i = 0
     for idx in range(0,127):
-        num = pow(idx,7)
+        num = pow(7,idx)
         if num%11==9:
             i+=1
             print(idx)
