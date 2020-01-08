@@ -6,9 +6,9 @@ import random
 import cmath
 
 def figure():
-    xk = []
+    xk = [] # it means x_k
     k = []
-    jk = []
+    jk = [] #it means j_k
     N = 100
     r = 20
     for idx in range(0, 99):
@@ -40,7 +40,7 @@ def figure():
 def Shor():
     i = 0
     for idx in range(0,127):
-        num = pow(idx,7)
+        num = pow(7, idx)
         if num%11==9:
             i+=1
             print(idx)
@@ -51,7 +51,6 @@ def Shor():
 def DFT():
     blist = []
     b = []
-    pj = []
     s = 3
     r = 11
     L = 128
@@ -82,4 +81,4 @@ def omega():
         for j in range(0,16):
             ans += b**(i*j)*a**(j)
         print(abs(ans))
-omega()
+#omega()
