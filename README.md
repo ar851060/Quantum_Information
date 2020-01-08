@@ -17,7 +17,18 @@ The results will show up the value of alpha square, number of sipn up particles,
 
 ## QIHW5
 In this exercise, we need to compress a picture of Richard Feynman using Singular Value Decomposition(SVD).  
-However, since the link is broken. I will fix it another day.
+Since the original link of the picture is failed, I change the link to the pi cture from wikipedia.   
+In order words, the code still work although the pictures between documents and code are different.  
+### test_1
+Find SVD of the picture and show the singular values.  
+### test_2
+Create a random matrix, find SVD of it, and show its singular values.
+### SVDcompress
+This function compress the pictures by slice parts of unitaries and singular values.
+### test_3
+With SVDcompress, I print out 6 pictures with different kinds of compression.  
+### test_4
+I forget why I do this function, but it seems to find the error between original picture and compressed picture.  
 
 ## QIHW10
 ### figure
