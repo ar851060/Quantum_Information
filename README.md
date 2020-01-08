@@ -1,5 +1,7 @@
 # Quantum_Information
 These are homeworks for quantum information in Technion.  
+QIHW is my answers and codes of the homeworks.  
+pset is the questions of homeworks.  
 ## QIHW2
 ### test_1
 test_1 describes a random walk process.  
